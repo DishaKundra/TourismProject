@@ -1,0 +1,91 @@
+﻿body *{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif
+}
+.Loginbox {
+    width: 300px;
+    background-color: #222A35;
+    padding: 80px;
+    position: absolute;
+    display: block;
+    margin: 10px auto;
+    border-radius: 25px;
+    box-shadow: 0 0 15px #808080;
+    top:40%;
+    left:35%;
+}
+.user
+{
+     width:100px;
+     height:100px;
+     overflow:hidden;
+     top:calc(-100px/2);
+     left:calc(50% - 50px);
+     position:absolute;
+}
+h2
+{
+    padding:0%;
+    margin:0%;
+    text-align:center;
+    color:#ffffff
+}
+.lbleid ,.lblpass
+{
+    font-weight:bold;
+    color:#fff;
+
+}
+.txteid,.txtpass,button
+{
+    width:100%;
+    margin-bottom:20px;
+
+
+}
+.txteid, .txtpass
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:16px;
+    background-color:transparent;
+}
+::placeholder
+{
+    color:rgba(255,255,255,.5);
+
+}
+.Button{
+    border:thin;
+    border-block-color:white;
+    outline:none;
+    height:40px;
+    font-size:16px;
+    color:white;
+    background-color:rgb(255,9,9);
+    cursor:pointer;
+    border-radius:100px;
+    transition: .3s ease-in-out;
+
+
+}
+    .Button:hover {
+        background-color:#85dbc0;
+    }
+.Links
+{
+    display:flex;
+    gap:0px;
+    color:white;
+}
+
+#Label3
+{
+    color:white;
+}
+
